@@ -1,9 +1,12 @@
 .App {
   text-align: center;
 }
-
+.leaflet-container {
+  width: 1520px;
+  height: 350px;
+}
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,7 +18,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +38,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  display: flex;
+  background-color: rgb(191, 218, 245);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container > div {
+  background-color: #f1f1f1;
+  border-radius:2rem;
+  margin: 1rem;
+  padding:0 0.5rem;
+  font-size: 1.0833em;
+  width:25%;
+  box-shadow:0.5rem 0.5rem rgb(53, 140, 228);
+
+}
+.axioscontainer {
+  display: flex;
+  background-color: rgb(153, 151, 152);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.axioscontainer > div {
+  background-color: #f1f1f1;
+  border-radius:0rem;
+  margin: 1rem;
+  padding:0 0rem;
+  font-size: 1em;
+  
+
+
 }
